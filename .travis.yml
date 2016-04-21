@@ -1,5 +1,12 @@
 language: go
 go:
-  - 1.6
+- 1.6
 script:
-  - go build
+- go build
+deploy:
+  provider: releases
+  api_key:
+    secure: JHeQ6cWt4Cd3yKX+tO5c8dmaaKleR65KsfTsP1Zn+dIOKgUy9HT1G6NI0nv+b7ntHMEfv9RwLbPwy7wKBNxxCiOkS4u7YujFJDD3WYidtMhyx3n67/Qz0NoOypk3rvw2pzrSNtmlxmnCNjNOQBDeW8RPUfHp2g40tVrbCLQ/W7JInfkJr7iksdesSfLPS2vEr1dxFFOkiN5Javrdt0mzVRkADSq3s+NFvWyEFlqMMHS+qoQI3DZoiduHr907UQ1F4/uF1s0pcFOEkG7LcOJlkNO+hX9AyTFSGygku4kk8vU4fSKexKuRFluZUbhPgUI7kBFSK5GKPmftilPOBTQxqHfm3TKoEhQJUuEPMbR0Igs/2NXbllTOrtdyPYCDJIsM7CLvPes2uQOZ+7uFRrnDEYJTojetv331db6xfseoI4qkn7c0ApESIWbnEw5P+GbFKC6UhU5Dh3ZZmwX+amcr5WtMaNiOZroHSZ6+Hh3Hj/7ZbKUb8lcvkJwIwpUMC7ouURAh9CD00ZGFCKBS9VG36mUHmMLdA5weXlZriYUxQsCqmc8Mr7fF7eaqPDqNqZWyq8lq8plBKE/qW+vp9XSoZe1xGWzxGAVDOYDEGLcseXcvvPKYXGKYDEdjvFcQdItFcOyeEnBsC31Z0OGRSaPB4wilYiVpfijvWAImpKTsRv8=
+  file: nifty-modify-image-attribute
+  on:
+    tags: true
