@@ -5,7 +5,7 @@
 			"importpath": "github.com/higebu/go-niftycloud/compute",
 			"repository": "https://github.com/higebu/go-niftycloud",
 			"vcs": "git",
-			"revision": "3b6477c08902e25e0856398a08b0f19ad6e9743a",
+			"revision": "e922b9c429d861100490d0bd8ebb332330ebae4e",
 			"branch": "master",
 			"path": "/compute",
 			"notests": true
@@ -14,7 +14,7 @@
 			"importpath": "github.com/higebu/go-niftycloud/niftycloud",
 			"repository": "https://github.com/higebu/go-niftycloud",
 			"vcs": "git",
-			"revision": "3b6477c08902e25e0856398a08b0f19ad6e9743a",
+			"revision": "e922b9c429d861100490d0bd8ebb332330ebae4e",
 			"branch": "master",
 			"path": "/niftycloud",
 			"notests": true
